@@ -8,7 +8,7 @@ start_time = time.time()  # Track uptime
 # Default route to avoid 404 errors
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcome to the Flask Calculator API!"})
+    return jsonify({"message": "Welcome to the Nimra's Flask Calculator API!"})
 
 @app.route('/add')
 def add():
